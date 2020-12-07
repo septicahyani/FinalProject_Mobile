@@ -1,0 +1,595 @@
+[35m[Appium][39m Welcome to Appium v1.19.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 49246
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\BRI\AppData\Local\Temp\\Katalon\Appium\Temp1607333436750
+[35m[Appium][39m   chromedriverPort: 49247
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 49247
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:49246
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m10 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"D:\\=== BRI ===\\= TRAINING =\\KSAT - 001\\Final Project\\FINAL PROJECTS\\MOBILE\\app-debug.apk","noReset":true,"deviceId":"","deviceName":"emulator-5554 (sdk_gphone_x86_arm - Android 11)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":49256},"capabilities":{"firstMatch":[{"appium:app":"D:\\=== BRI ===\\= TRAINING =\\KSAT - 001\\Final Project\\FINAL PROJECTS\\MOBILE\\app-debug.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone_x86_arm - Android 11)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":49256,"appium:udid":"emulator-5554"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.19.0 creating new AndroidUiautomator2Driver (v1.59.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[BaseDriver][39m Using local app 'D:\=== BRI ===\= TRAINING =\KSAT - 001\Final Project\FINAL PROJECTS\MOBILE\app-debug.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\BRI\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/BRI/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\BRI\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\BRI\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.example.mikebanks.bankscorpfinancial'
+[35m[ADB][39m Main activity name: 'com.example.mikebanks.bankscorpfinancial.LaunchActivity'
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\BRI\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\BRI\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.15.0.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\BRI\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m 'D:\=== BRI ===\= TRAINING =\KSAT - 001\Final Project\FINAL PROJECTS\MOBILE\app-debug.apk' is signed with a non-default certificate
+[35m[ADB][39m The application at 'D:\=== BRI ===\= TRAINING =\KSAT - 001\Final Project\FINAL PROJECTS\MOBILE\app-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'app-debug.apk' took 531ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.15.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\BRI\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.15.0.apk' and test from 'C:\Users\BRI\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.example.mikebanks.bankscorpfinancial/com.example.mikebanks.bankscorpfinancial.LaunchActivity and waiting for 'com.example.mikebanks.bankscorpfinancial/com.example.mikebanks.bankscorpfinancial.LaunchActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m14184 ms - 1428[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66 [39m[32m200[39m [90m50 ms - 1382[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66 [39m[32m200[39m [90m37 ms - 1382[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/timeouts [39m[32m200[39m [90m13 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source [39m[32m200[39m [90m406 ms - 10623[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot [39m[32m200[39m [90m1136 ms - 99766[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_username"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m80 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect [39m[32m200[39m [90m25 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_username"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m43 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/b6c88b56-daeb-49ce-bda1-8d1aebf32f6a/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/b6c88b56-daeb-49ce-bda1-8d1aebf32f6a/location [39m[32m200[39m [90m26 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/b6c88b56-daeb-49ce-bda1-8d1aebf32f6a/clear[39m
+[35m[HTTP][39m [90m{"id":"b6c88b56-daeb-49ce-bda1-8d1aebf32f6a"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/b6c88b56-daeb-49ce-bda1-8d1aebf32f6a/clear [39m[32m200[39m [90m33 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/b6c88b56-daeb-49ce-bda1-8d1aebf32f6a/value[39m
+[35m[HTTP][39m [90m{"id":"b6c88b56-daeb-49ce-bda1-8d1aebf32f6a","text":"septi.cahyani","value":["s","e","p","t","i",".","c","a","h","y","a","n","i"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/b6c88b56-daeb-49ce-bda1-8d1aebf32f6a/value [39m[32m200[39m [90m1287 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source [39m[32m200[39m [90m184 ms - 10628[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot [39m[32m200[39m [90m593 ms - 102632[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_password"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m47 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect [39m[32m200[39m [90m18 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_password"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m36 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/1f993e65-00f1-4958-813c-90d146aa1842/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/1f993e65-00f1-4958-813c-90d146aa1842/location [39m[32m200[39m [90m24 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/1f993e65-00f1-4958-813c-90d146aa1842/clear[39m
+[35m[HTTP][39m [90m{"id":"1f993e65-00f1-4958-813c-90d146aa1842"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/1f993e65-00f1-4958-813c-90d146aa1842/clear [39m[32m200[39m [90m24 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/1f993e65-00f1-4958-813c-90d146aa1842/value[39m
+[35m[HTTP][39m [90m{"id":"1f993e65-00f1-4958-813c-90d146aa1842","text":"password","value":["p","a","s","s","w","o","r","d"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/1f993e65-00f1-4958-813c-90d146aa1842/value [39m[32m200[39m [90m1116 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source [39m[32m200[39m [90m157 ms - 10644[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot [39m[32m200[39m [90m571 ms - 95940[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/btn_login"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m38 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect [39m[32m200[39m [90m12 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/btn_login"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m34 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/488531c8-bfc4-44a1-8e63-987ac25aec56/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/488531c8-bfc4-44a1-8e63-987ac25aec56/location [39m[32m200[39m [90m19 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"488531c8-bfc4-44a1-8e63-987ac25aec56"}}]}[39m
+[35m[UiAutomator2][39m calling get location: 488531c8-bfc4-44a1-8e63-987ac25aec56
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/touch/perform [39m[32m200[39m [90m224 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source [39m[32m200[39m [90m186 ms - 11029[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot [39m[32m200[39m [90m743 ms - 109126[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/btn_create_account"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m51 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect [39m[32m200[39m [90m19 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/btn_create_account"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m59 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/522f2d88-5655-4d9a-806e-e824e9289bca/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/522f2d88-5655-4d9a-806e-e824e9289bca/location [39m[32m200[39m [90m29 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"522f2d88-5655-4d9a-806e-e824e9289bca"}}]}[39m
+[35m[UiAutomator2][39m calling get location: 522f2d88-5655-4d9a-806e-e824e9289bca
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/touch/perform [39m[32m200[39m [90m202 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source [39m[32m200[39m [90m103 ms - 11542[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot [39m[32m200[39m [90m442 ms - 82758[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_first_name"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m31 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect [39m[32m200[39m [90m24 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_first_name"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m47 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/4490de98-db92-43aa-80cd-f9a1d89d78c4/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/4490de98-db92-43aa-80cd-f9a1d89d78c4/location [39m[32m200[39m [90m27 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/4490de98-db92-43aa-80cd-f9a1d89d78c4/clear[39m
+[35m[HTTP][39m [90m{"id":"4490de98-db92-43aa-80cd-f9a1d89d78c4"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/4490de98-db92-43aa-80cd-f9a1d89d78c4/clear [39m[32m200[39m [90m34 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/4490de98-db92-43aa-80cd-f9a1d89d78c4/value[39m
+[35m[HTTP][39m [90m{"id":"4490de98-db92-43aa-80cd-f9a1d89d78c4","text":"Kurnia Septi","value":["K","u","r","n","i","a"," ","S","e","p","t","i"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/4490de98-db92-43aa-80cd-f9a1d89d78c4/value [39m[32m200[39m [90m568 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source [39m[32m200[39m [90m211 ms - 11544[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot [39m[32m200[39m [90m825 ms - 88974[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_last_name"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m31 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect [39m[32m200[39m [90m12 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_last_name"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m28 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/1be6c873-ecfe-445e-a5df-d1bfab77ddc3/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/1be6c873-ecfe-445e-a5df-d1bfab77ddc3/location [39m[32m200[39m [90m21 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/1be6c873-ecfe-445e-a5df-d1bfab77ddc3/clear[39m
+[35m[HTTP][39m [90m{"id":"1be6c873-ecfe-445e-a5df-d1bfab77ddc3"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/1be6c873-ecfe-445e-a5df-d1bfab77ddc3/clear [39m[32m200[39m [90m20 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/1be6c873-ecfe-445e-a5df-d1bfab77ddc3/value[39m
+[35m[HTTP][39m [90m{"id":"1be6c873-ecfe-445e-a5df-d1bfab77ddc3","text":"Cahyani","value":["C","a","h","y","a","n","i"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/1be6c873-ecfe-445e-a5df-d1bfab77ddc3/value [39m[32m200[39m [90m630 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source [39m[32m200[39m [90m149 ms - 11542[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot [39m[32m200[39m [90m544 ms - 87122[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_country"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m30 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect [39m[32m200[39m [90m11 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_country"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m26 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/088f13b4-a010-44ae-8df4-93718a9a2d24/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/088f13b4-a010-44ae-8df4-93718a9a2d24/location [39m[32m200[39m [90m18 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/088f13b4-a010-44ae-8df4-93718a9a2d24/clear[39m
+[35m[HTTP][39m [90m{"id":"088f13b4-a010-44ae-8df4-93718a9a2d24"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/088f13b4-a010-44ae-8df4-93718a9a2d24/clear [39m[32m200[39m [90m22 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/088f13b4-a010-44ae-8df4-93718a9a2d24/value[39m
+[35m[HTTP][39m [90m{"id":"088f13b4-a010-44ae-8df4-93718a9a2d24","text":"Indonesia","value":["I","n","d","o","n","e","s","i","a"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/088f13b4-a010-44ae-8df4-93718a9a2d24/value [39m[32m200[39m [90m643 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source [39m[32m200[39m [90m88 ms - 11544[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot [39m[32m200[39m [90m1141 ms - 89212[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_username"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m28 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect [39m[32m200[39m [90m11 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_username"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m24 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/cf9bac7f-4b90-4d99-a523-aff7801d815a/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/cf9bac7f-4b90-4d99-a523-aff7801d815a/location [39m[32m200[39m [90m16 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/cf9bac7f-4b90-4d99-a523-aff7801d815a/clear[39m
+[35m[HTTP][39m [90m{"id":"cf9bac7f-4b90-4d99-a523-aff7801d815a"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/cf9bac7f-4b90-4d99-a523-aff7801d815a/clear [39m[32m200[39m [90m26 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/cf9bac7f-4b90-4d99-a523-aff7801d815a/value[39m
+[35m[HTTP][39m [90m{"id":"cf9bac7f-4b90-4d99-a523-aff7801d815a","text":"septi.cahyani","value":["s","e","p","t","i",".","c","a","h","y","a","n","i"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/cf9bac7f-4b90-4d99-a523-aff7801d815a/value [39m[32m200[39m [90m566 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source [39m[32m200[39m [90m115 ms - 11549[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot [39m[32m200[39m [90m494 ms - 91938[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_password"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m25 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect [39m[32m200[39m [90m12 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_password"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m26 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/95baeb33-aac0-4ed7-b7be-fa59c8ac3a7c/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/95baeb33-aac0-4ed7-b7be-fa59c8ac3a7c/location [39m[32m200[39m [90m18 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/95baeb33-aac0-4ed7-b7be-fa59c8ac3a7c/clear[39m
+[35m[HTTP][39m [90m{"id":"95baeb33-aac0-4ed7-b7be-fa59c8ac3a7c"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/95baeb33-aac0-4ed7-b7be-fa59c8ac3a7c/clear [39m[32m200[39m [90m24 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/95baeb33-aac0-4ed7-b7be-fa59c8ac3a7c/value[39m
+[35m[HTTP][39m [90m{"id":"95baeb33-aac0-4ed7-b7be-fa59c8ac3a7c","text":"password","value":["p","a","s","s","w","o","r","d"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/95baeb33-aac0-4ed7-b7be-fa59c8ac3a7c/value [39m[32m200[39m [90m1092 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source [39m[32m200[39m [90m194 ms - 11565[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot [39m[32m200[39m [90m483 ms - 92062[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_password_confirm"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m28 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect [39m[32m200[39m [90m14 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_password_confirm"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m24 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/0f4c0ee9-1bee-4066-834b-3d3f284e168f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/0f4c0ee9-1bee-4066-834b-3d3f284e168f/location [39m[32m200[39m [90m16 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/0f4c0ee9-1bee-4066-834b-3d3f284e168f/clear[39m
+[35m[HTTP][39m [90m{"id":"0f4c0ee9-1bee-4066-834b-3d3f284e168f"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/0f4c0ee9-1bee-4066-834b-3d3f284e168f/clear [39m[32m200[39m [90m21 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/0f4c0ee9-1bee-4066-834b-3d3f284e168f/value[39m
+[35m[HTTP][39m [90m{"id":"0f4c0ee9-1bee-4066-834b-3d3f284e168f","text":"password","value":["p","a","s","s","w","o","r","d"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/0f4c0ee9-1bee-4066-834b-3d3f284e168f/value [39m[32m200[39m [90m630 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source [39m[32m200[39m [90m87 ms - 11573[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot [39m[32m200[39m [90m490 ms - 83568[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/btn_create_account"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m26 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect [39m[32m200[39m [90m10 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/btn_create_account"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m21 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/184a8352-b15e-45af-b57c-36b88a2cffdc/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/184a8352-b15e-45af-b57c-36b88a2cffdc/location [39m[32m200[39m [90m18 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"184a8352-b15e-45af-b57c-36b88a2cffdc"}}]}[39m
+[35m[UiAutomator2][39m calling get location: 184a8352-b15e-45af-b57c-36b88a2cffdc
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/touch/perform [39m[32m200[39m [90m215 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source [39m[32m200[39m [90m639 ms - 11027[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot [39m[32m200[39m [90m539 ms - 112378[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_username"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m32 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect [39m[32m200[39m [90m14 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_username"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m26 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/4c8df93e-2bc6-4958-ac43-b6d1aaca63dd/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/4c8df93e-2bc6-4958-ac43-b6d1aaca63dd/location [39m[32m200[39m [90m18 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/4c8df93e-2bc6-4958-ac43-b6d1aaca63dd/clear[39m
+[35m[HTTP][39m [90m{"id":"4c8df93e-2bc6-4958-ac43-b6d1aaca63dd"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/4c8df93e-2bc6-4958-ac43-b6d1aaca63dd/clear [39m[32m200[39m [90m22 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/4c8df93e-2bc6-4958-ac43-b6d1aaca63dd/value[39m
+[35m[HTTP][39m [90m{"id":"4c8df93e-2bc6-4958-ac43-b6d1aaca63dd","text":"septi.cahyani","value":["s","e","p","t","i",".","c","a","h","y","a","n","i"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/4c8df93e-2bc6-4958-ac43-b6d1aaca63dd/value [39m[32m200[39m [90m1092 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source [39m[32m200[39m [90m58 ms - 10644[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot [39m[32m200[39m [90m470 ms - 97098[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_password"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m28 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect [39m[32m200[39m [90m12 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_password"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m23 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/b1352e65-8199-4f9a-9162-3272d1ce0c1a/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/b1352e65-8199-4f9a-9162-3272d1ce0c1a/location [39m[32m200[39m [90m18 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/b1352e65-8199-4f9a-9162-3272d1ce0c1a/clear[39m
+[35m[HTTP][39m [90m{"id":"b1352e65-8199-4f9a-9162-3272d1ce0c1a"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/b1352e65-8199-4f9a-9162-3272d1ce0c1a/clear [39m[32m200[39m [90m21 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/b1352e65-8199-4f9a-9162-3272d1ce0c1a/value[39m
+[35m[HTTP][39m [90m{"id":"b1352e65-8199-4f9a-9162-3272d1ce0c1a","text":"password","value":["p","a","s","s","w","o","r","d"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/b1352e65-8199-4f9a-9162-3272d1ce0c1a/value [39m[32m200[39m [90m1062 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source [39m[32m200[39m [90m62 ms - 10644[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot [39m[32m200[39m [90m494 ms - 95962[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source [39m[32m200[39m [90m48 ms - 10644[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot [39m[32m200[39m [90m770 ms - 95962[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_password"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m21 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/window/rect [39m[32m200[39m [90m11 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.example.mikebanks.bankscorpfinancial:id/edt_password"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/elements [39m[32m200[39m [90m28 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/9d237e41-9e0f-4074-b67a-ad8a4e8a6ef0/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/9d237e41-9e0f-4074-b67a-ad8a4e8a6ef0/location [39m[32m200[39m [90m19 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/9d237e41-9e0f-4074-b67a-ad8a4e8a6ef0/clear[39m
+[35m[HTTP][39m [90m{"id":"9d237e41-9e0f-4074-b67a-ad8a4e8a6ef0"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/9d237e41-9e0f-4074-b67a-ad8a4e8a6ef0/clear [39m[32m200[39m [90m26 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/9d237e41-9e0f-4074-b67a-ad8a4e8a6ef0/value[39m
+[35m[HTTP][39m [90m{"id":"9d237e41-9e0f-4074-b67a-ad8a4e8a6ef0","text":"password","value":["p","a","s","s","w","o","r","d"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/element/9d237e41-9e0f-4074-b67a-ad8a4e8a6ef0/value [39m[32m200[39m [90m1095 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (887a8c4a)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 09e96824-5339-48c0-8b4e-529fbb2fcbb6 with 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/source [39m[32m200[39m [90m104 ms - 10644[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66/screenshot [39m[32m200[39m [90m627 ms - 95962[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 887a8c4a-b6ba-4c26-a0c7-e7a06d642a66 from our master session list
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/887a8c4a-b6ba-4c26-a0c7-e7a06d642a66 [39m[32m200[39m [90m1107 ms - 14[39m
